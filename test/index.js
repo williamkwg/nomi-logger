@@ -1,5 +1,9 @@
 var LoggerWrapper = require('../lib/LoggerWrapper.js');
-LoggerWrapper.init({system:{path:'d:/testlog1/system/',level:'DEBUG'},user:{path:'d:/testlog1/user/',level:'WARN'}});
+LoggerWrapper.init({
+    system:{path:'d:/testlog1/system/',level:'DEBUG'},
+    user:{path:'d:/testlog1/user/',level:'WARN'},
+    error:{path:'d:/error/user/',level:'WARN'}
+});
 var SYS = LoggerWrapper.SysLogger;
 var loge = LoggerWrapper.Logger;
 
