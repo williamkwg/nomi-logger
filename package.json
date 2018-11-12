@@ -1,6 +1,6 @@
 {
   "name": "nomi-logger",
-  "version": "1.0.1",
+  "version": "1.0.5",
   "description": "This is the logger moudle of nomi node framework",
   "main": "./lib/LoggerWrapper.js",
   "scripts": {
@@ -13,17 +13,9 @@
   "author": "lantao.wang",
   "license": "ISC",
   "dependencies": {
-    "babel-core": "^6.26.0",
     "chalk": "^1.1.3",
     "mkdirp": "^0.5.1"
   },
   "devDependencies": {
-    "babel-cli": "^6.26.0",
-    "babel-core": "^6.26.3",
-    "babel-plugin-imports-transform": "^0.1.0",
-    "babel-plugin-transform-class-properties": "^6.24.1",
-    "babel-plugin-transform-decorators": "^6.24.1",
-    "babel-plugin-transform-decorators-legacy": "^1.3.4",
-    "babel-register": "^6.26.0"
   }
 }
